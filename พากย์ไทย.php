@@ -27,7 +27,7 @@ include('connect.php');
         <!-- Left Menu with Popular Movies -->
         <div class="col-md-2 left-menu">
             <h4>หมวดหมู่หนัง</h4>
-            <a href="movie.php?">หน้าแรก</a>
+            <a href="index.php?">หน้าแรก</a>
             <a href="พากย์ไทย.php?">พากย์ไทย</a>
             <a href="ซับไทย.php?">ซับไทย</a>
         </div>

@@ -10,7 +10,7 @@ include('connect.php');
     <div class="d-flex">
         <!-- เงื่อนไขในการแสดงปุ่มหน้าแรก -->
         <?php if (basename($_SERVER['PHP_SELF']) === 'episode.php' || basename($_SERVER['PHP_SELF']) === 'play.php'): ?>
-            <a href="movie.php" class="btn btn-outline-light me-2" style="color:white; border: 1px solid gold; border-radius: 30px; padding: 8px 15px;">
+            <a href="index.php" class="btn btn-outline-light me-2" style="color:white; border: 1px solid gold; border-radius: 30px; padding: 8px 15px;">
                 หน้าแรก
             </a>
         <?php endif; ?>
