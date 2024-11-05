@@ -125,9 +125,19 @@ if (!$episode) {
 <!-- Movie or Episode Information -->
 <div class="container mt-4">
     <?php if ($is_movie): ?>
-        <!-- Display for Movie -->
+            <!-- Display for Movie -->            
         <div class="row">
             <!-- Movie Information -->
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="movie-image-container">
+                    <img src="<?=$result['img'] ?>" class="img-fluid rounded movie-image" alt="<?=$result['name'] ?>">
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div  div class="video-frame-container">
+                    <iframe width="100%" height="420" src="https://www.youtube.com/embed/<?=$result['vdo_ex'] ?>" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>  
         </div><br>
         <div class="synopsis-box">
             <h4>เรื่องย่อ - <?= htmlspecialchars($result['name']) ?></h4>
