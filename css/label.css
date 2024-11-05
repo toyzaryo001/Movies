@@ -1,0 +1,47 @@
+.label-dubbed{
+    position: absolute;
+    top: 7px; /* ปรับตำแหน่งตามที่ต้องการ */
+    right: 2%; /* ปรับตำแหน่งตามที่ต้องการ */
+    background: linear-gradient(45deg, gold, orange); /* สีพื้นหลังสำหรับพากย์ไทย */
+    color: #000000; /* สีข้อความ */
+    padding: 5px;
+    border-radius: 5px;
+    }
+
+    .label-subbed{
+        position: absolute;
+        top: 7px; /* ปรับตำแหน่งตามที่ต้องการ */
+        right: 35%; /* ปรับตำแหน่งให้ห่างจากพากย์ไทย */
+        background: linear-gradient(45deg, purple, pink); /* สีพื้นหลังสำหรับซับไทย */
+        color: black; /* สีข้อความ */
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .label-complete {
+        color: #ffffff;
+        background: linear-gradient(45deg, red, black);
+        padding: inherit;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 20px;
+        text-align: center;
+
+    }
+
+    .label-ongoing{
+        color: #ffffff;
+        background: linear-gradient(45deg, green, black);
+        padding: inherit;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 20px;
+        text-align: center;
+
+    }
+    
+    .position-absolute.bottom-0.end-0 {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    }

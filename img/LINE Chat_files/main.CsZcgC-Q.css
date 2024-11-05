@@ -1,0 +1,1 @@
+[contenteditable=true]:empty:before{content:attr(placeholder);display:block;color:#adb5bd!important;pointer-events:none}

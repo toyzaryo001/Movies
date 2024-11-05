@@ -1,0 +1,15 @@
+/* ส่วนของหนังทั้งหมด */
+
+.btn-gradient-movie{
+    margin-right: 15px;
+    border: aqua;
+    padding: 8px 15px; /* ขนาดของปุ่ม */
+    border-radius: 5px; /* มุมโค้งของปุ่ม */
+    color: gold; /* สีตัวอักษร */
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(255, 0, 0)); /* การกำหนดสี gradient */
+    transition: background 0.3s; /* การเปลี่ยนแปลงเมื่อ hover */
+}
+
+.btn-gradient-movie:hover{
+    background: linear-gradient(45deg, #000000, #ff7e5f); /* สลับสีเมื่อ hover */
+}

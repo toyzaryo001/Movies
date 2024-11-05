@@ -1,0 +1,344 @@
+/* เพิ่มกรอบและจัดรูปแบบให้สไลด์ */
+.movie-item {
+    text-align: center;
+    padding: 5px; /* ลด padding เพื่อให้หนังชิดติดกันมากขึ้น */
+    margin: 0; /* ลบ margin ให้หนังในสไลด์ชิดกัน */
+}
+
+.movie-item img {
+    border: 2px solid #fff; /* เพิ่มกรอบสีขาวให้กับภาพหนัง */
+    border-radius: 5px; /* เพิ่มความโค้งเล็กน้อยให้กรอบ */
+    width: 100%; /* ปรับให้ภาพเต็มความกว้างของ container */
+    height: auto;
+}
+
+.movie-item h2 {
+    font-size: 16px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7); /* เพิ่มพื้นหลังโปร่งใส */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.slick-slider {
+    margin-top: 15px;
+    border-radius: 10px; /* มุมโค้งให้กับกรอบ */
+}
+
+
+.slick-slide {
+float: left;
+height: 40%;
+min-height: 1px;
+}
+    
+.slick-slide {
+    
+    padding: 1px; /* ลด padding ให้ชิดกันมากขึ้น */
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+
+.card-body p {
+    color: rgb(255, 214, 32);
+}
+.category-menu {
+  background-color: #09151f;
+  padding: 25px;
+  margin-top: 0px;
+  border-radius: 10px;
+  border: 2px solid #3c576f;
+
+}
+.category-menu a {
+    color: white;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+.category-menu a:hover {
+    background-color: #3c576f;
+}
+footer {
+    background-color: #09151f;
+    color: white;
+    padding: 10px 0;
+}
+.label-hd {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    padding: 3px 5px;
+    font-size: 12px;
+    background-color: #FFD700;
+    color: #000000;
+    border-radius: 3px;
+}
+.label-hd.hd {
+    background: linear-gradient(45deg, blue, rgb(158, 203, 245));
+}
+.label-hd.zoom {
+    background: linear-gradient(45deg, green, rgb(92, 230, 207));
+}
+.label-hd.comingsoon {
+    background: linear-gradient(45deg, red, orange);
+}
+.latest-movies {
+    margin-top: 0px;
+    background-color: #09151f;
+    padding: 15px;
+    border: 2px solid #3c576f;
+    border-radius: 10px;
+}
+.latest-movie-item {
+    margin-bottom: 15px;
+    color: white;
+    text-align: center;
+}
+.latest-movie-item img {
+    width: 100%;
+    max-width: 130px;
+    height: auto;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.card {
+    
+    height: fit-content; /* กำหนดความสูงที่แน่นอน */
+    border: 2px solid #ffd900;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    display: flex; /* ใช้ Flexbox */
+    flex-direction: column; /* ให้จัดเรียงแบบแนวตั้ง */
+    justify-content: space-between; /* ให้มีพื้นที่ว่างระหว่าง */
+}
+
+
+.card img {
+    max-height: fit-content; /* กำหนดความสูงของภาพ */
+    object-fit: cover; /* ให้ภาพเต็มกรอบโดยไม่ทำให้ผิดสัดส่วน */
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+.movie-section {
+    background-color: #09151f;
+    padding: 15px;
+    border: 2px solid #3c576f;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.movie-section h2 {
+color: #ff4444;
+text-align: center;
+}
+
+footer {
+background-color: #330000;
+padding: 2rem 0;
+text-align: center;
+color: #ff4444;
+border-top: 2px solid #ff4444;
+}
+
+footer a {
+color: #ff4444;
+text-decoration: none;
+}
+
+.card-body p {
+color: #FFD700;
+text-align: center;
+}
+
+.label-hd {
+font-size: 0.75rem;
+padding: 0.25rem 0.5rem;
+position: absolute;
+top: 0.5rem;
+left: 0.5rem;
+border-radius: 3px;
+color: #fff;
+}
+
+body {
+        background-color: #000000;
+        color: #FFD700;
+    }   
+
+
+
+/* Left menu */
+.left-menu {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.left-menu a {
+    display: block;
+    color: #FFD700;
+    padding: 10px;
+    border-bottom: 1px solid #660000;
+    text-decoration: none;
+}
+
+.left-menu a:hover {
+    background-color: #FFD700;
+    color: #000000;
+}
+
+        /* Popular movies */
+.popular-section {
+    margin-top: 20px;
+}
+
+.popular-movie {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.popular-movie img {
+    width: 60px;
+    height: 90px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.popular-movie p {
+    margin: 0;
+    align-self: center;
+}
+
+            /* Movie slider */
+.movie-slider {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 0;
+}
+
+.movie-item {
+    margin-bottom: 10px;
+}
+
+.movie-item img {
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid #ff4444;
+}
+
+.movie-item h2 {
+    font-size: 16px;
+    color: #fff;
+    background-color: rgba(102, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+        /* Adjust Movie List position */
+        .movie-list {
+            margin-top: 0;
+        }
+                
+        /* ซ่อนชื่อหนังในตอนแรก */
+        .movie-title-overlay {
+            display: none;
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            right: 10px;
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            padding: 5px;
+            font-size: 16px;
+            text-align: center;
+            border-radius: 4px;
+        }
+
+        /* แสดงชื่อหนังเมื่อเม้าชี้ */
+        .card:hover .movie-title-overlay {
+            display: block;
+        }
+
+        .banner {
+            position: relative;
+            height: 400px; /* ปรับความสูงของแบนเนอร์ */
+            overflow: hidden;
+        }
+        
+        .banner-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* ทำให้ภาพเต็มพื้นที่ */
+        }
+        
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* สีทึบซ้อนทับ */
+        }
+        
+        .banner-title {
+            color: #fff;
+            font-size: 2.5rem; /* ขนาดฟอนต์ */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* เงาฟอนต์ */
+        }
+        
+        .banner-subtitle {
+            color: #fff;
+            font-size: 1.2rem; /* ขนาดฟอนต์ */
+            margin-bottom: 20px;
+        }
+        
+        .banner-button {
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            border-radius: 5px; /* มุมโค้ง */
+            transition: background-color 0.3s; /* เอฟเฟคเมื่อวางเมาส์ */
+        }
+        
+        .banner-button:hover {
+            background-color: #ffcc00; /* เปลี่ยนสีเมื่อวางเมาส์ */
+        }
+        
+        .icon-style {
+            width: 50px; /* ขนาดไอคอน */
+            filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5)); /* เงาไอคอน */
+        }
+        
+        .banner-title {
+            animation: fadeIn 1s;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+
+        
+        
+ 
+
+            
+
